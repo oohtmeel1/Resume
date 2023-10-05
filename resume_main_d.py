@@ -2,7 +2,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-from st_clickable_images import clickable_images
 from PIL import Image
 import base64
 from pathlib import Path
