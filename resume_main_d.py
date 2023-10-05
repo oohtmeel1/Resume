@@ -53,10 +53,6 @@ st.sidebar.image("https://drive.google.com/uc?export=view&id=1udI3U3LLKbZBKp4LLh
 st.sidebar.markdown('<p class="big-font">Agnes McFarlin</p>',unsafe_allow_html=True)
 st.sidebar.write("Enjoyer of science in all forms.")
 
-
-
-
-
 st.sidebar.link_button("Github", "https://github.com/oohtmeel1")
 check1 = sideb.button('Introduction')
 check2 = sideb.button('Projects')
@@ -159,9 +155,22 @@ if check2:
 		expander.write("[Repo link](https://github.com/oohtmeel1/Review_NYC_data_project)")
 		expander.write(""" Reviewed previously performed project and made reccomendations for improvements in R. Image credit to capturetheatlas.com""")
 	col13,col14,col15 = st.columns(3)
-
-
- 
+else:
+	st.header("""About : """)
+	st.markdown('''<img src="https://drive.google.com/uc?export=view&id=1VNyLiC2GQSonzXvbmRL7KO_mfuBQZP3S"
+ 	alt="foo" width=300, height=300 /> <p class="little-big">While my career started out with me working in wet labs as a Chemist, 
+	performing various chemical and biochemical tests, and working with a 
+	variety of instruments.
+  	I always enjoyed poring over the massive amounts of data that were generated during the course of some interval by work processes. From tracking protein concentration changes over time, and communicating those changes during meetings, or tracking how many samples we sent for outside 
+	testing in a month to ensure timelines were being met, the Data Science portion 
+	of my various jobs has always interested me. So, in pursuit of furthering my career 
+	interest with such activities, I have been diligently self-studying programming 
+	and am nearing completion of a Master’s program in Data Science at the 
+	University of Colorado.I have gained experience using Python and R with a 
+	variety of tasks. Cleaning, parsing, otherwise working with numerical and text data. 
+	Visualizing said data using various libraries and techniques and even some machine 
+	learning using Scikit learn, Tensorflow and Hugging Face. I am excited to apply my skills and 
+	knowledge with new opportunities.</p>''',unsafe_allow_html=True)	
   
 
 
