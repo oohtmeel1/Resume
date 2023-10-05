@@ -155,9 +155,9 @@ if check2:
 		expander.write("[Repo link](https://github.com/oohtmeel1/Review_NYC_data_project)")
 		expander.write(""" Reviewed previously performed project and made reccomendations for improvements in R. Image credit to capturetheatlas.com""")
 	col13,col14,col15 = st.columns(3)
-else:
-	st.header("""About : """)
-	st.markdown('''<img src="https://drive.google.com/uc?export=view&id=1VNyLiC2GQSonzXvbmRL7KO_mfuBQZP3S"
+elif not check1 or check2 or check3:
+    st.header("""About : """)
+    st.markdown('''<img src="https://drive.google.com/uc?export=view&id=1VNyLiC2GQSonzXvbmRL7KO_mfuBQZP3S"
  	alt="foo" width=300, height=300 /> <p class="little-big">While my career started out with me working in wet labs as a Chemist, 
 	performing various chemical and biochemical tests, and working with a 
 	variety of instruments.
