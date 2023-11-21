@@ -85,8 +85,7 @@ if check2:
 	col1, col2, col3 = st.columns(3)
 	with col1:
 		expander = st.expander("Python Project Performing Text classification of twitter data to create networks")
-		
-		expander.image('''https://drive.google.com/uc?export=view&id=13A2rY23cm1q8_AAOPf_1CYDVruJbNITp''')
+		expander.image('''https://drive.google.com/uc?export=view&id=1ftTe2PDoBL0OkSt7y4jKNvH_Lrl61Vfi''')
 		expander.write('''
 				 Used Python, NLTK, Seaborn and NetworkX to create directed and undirected graphs of text data''')
 		expander.write("[Project Link](https://colab.research.google.com/drive/15An1jxoNVKclHzFsV58FiIrUrW3nS47T?usp=sharing/)")
