@@ -163,7 +163,7 @@ if check2:
 		expander.image('''https://drive.google.com/uc?export=view&id=1UFI90bKoiFgJah3_EZTL3DwSM8Rlpu65''')
 		expander.write("[Repo link](https://github.com/oohtmeel1/Project_For_Data_Visualization)")
 		expander.write("""In R worked with a large data file consiting of mixed data types, interpreted and visualized results. """)	
-elif not check1 or check2 or check3:
+if not check1 or check2 or check3:
 	st.header("""About : """)
 	st.markdown('''<img src="https://drive.google.com/uc?export=view&id=1VNyLiC2GQSonzXvbmRL7KO_mfuBQZP3S"
  	alt="foo" width=300, height=300 /> 
