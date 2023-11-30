@@ -145,7 +145,7 @@ if check2:
 		expander.write("[Repo link](https://github.com/oohtmeel1/Supervised_learning_project)")
 		expander.write(""" Cleaned and manually labelled enron email dataset in order to perform sentiment analysis in Python using Vader  sentiment analysis and SVM.""")
 	
- 	col10,col11,col12 = st.columns(3)
+	col10,col11,col12 = st.columns(3)
 	with col10:
 		expander = st.expander("Text Classification with distilroberta-base")
 		expander.image('''https://drive.google.com/uc?export=view&id=1peKSc20h87VDg220_y5PxeFuiVjmlxfb''')
