@@ -90,7 +90,7 @@ if check1:
 	testing to ensure timelines were being met, the Data Science portion 
 	of my various jobs has always interested me. So, in pursuit of furthering my career 
 	interest with such activities, I have been diligently self-studying programming 
-	and am nearing completion of a Master’s program in Data Science at the 
+	and have completed a Master’s program in Data Science at the 
 	University of Colorado.I have gained experience using Python and R with a 
 	variety of tasks. Cleaning, parsing, otherwise working with numerical and text data. 
 	Visualizing said data using various libraries and techniques and even some machine 
