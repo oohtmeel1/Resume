@@ -51,7 +51,8 @@ with placeholder.container():
 	st.header("""About : """)
 	col1, col2 = st.columns(2, gap="small")
 	with col1:
-		st.markdown('''[!Google](https://drive.google.com/uc?export=view&id=1zjzykI1bShq50pu1gkcp962afitfw35n)''')
+		st.image("https://drive.google.com/uc?export=view&id=1zjzykI1bShq50pu1gkcp962afitfw35n)")
+		
 		st.markdown('''<p class="little-big">While my career started out with me working in wet labs as a Chemist, 
 		performing various chemical and biochemical tests, and working with a 
 		variety of instruments.
