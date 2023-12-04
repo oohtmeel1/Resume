@@ -78,7 +78,8 @@ if check1:
 	with col1:
 		st.empty()
 	with col2:
-		st.image("https://drive.google.com/uc?export=view&id=1zjzykI1bShq50pu1gkcp962afitfw35n")
+		st.empty()
+		#st.image("https://drive.google.com/uc?export=view&id=1zjzykI1bShq50pu1gkcp962afitfw35n")
   
   
   
