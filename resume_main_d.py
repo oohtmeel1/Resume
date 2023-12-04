@@ -58,9 +58,9 @@ st.sidebar.image("https://drive.google.com/uc?export=view&id=1udI3U3LLKbZBKp4LLh
 
 st.sidebar.markdown('<p class="big-font">Agnes McFarlin</p>',unsafe_allow_html=True)
 st.sidebar.write("Enjoyer of science in all forms.")
-
-st.sidebar.link_button("Github", "https://github.com/oohtmeel1")
 check4 = sideb.button('Home')
+st.sidebar.link_button("Github", "https://github.com/oohtmeel1")
+
 check1 = sideb.button('Introduction')
 check2 = sideb.button('Projects')
 check3 = sideb.link_button("Resume", "https://drive.google.com/file/d/1i3PxOibjfFDwH6j4DgPT7Och_3SMi2Q0/view?usp=sharing")
