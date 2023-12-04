@@ -64,7 +64,7 @@ st.markdown(''' <p class="little-big">that were generated during the course of s
 		variety of tasks. Cleaning, parsing, otherwise working with numerical and text data. 
 		Visualizing said data using various libraries and techniques and even some machine 
 		learning using Scikit learn, Tensorflow and Hugging Face. I am excited to apply my skills and 
-		knowledge with new opportunities.</p>''')
+		knowledge with new opportunities.</p>''',unsafe_allow_html=True)
 
 
 sideb = st.sidebar
