@@ -51,18 +51,12 @@ with placeholder.container():
 	st.header("""About : """)
 	col1, col2 = st.columns([0.2,0.8])
 	with col1:
-		st.image("https://drive.google.com/uc?export=view&id=1zjzykI1bShq50pu1gkcp962afitfw35n")
-	with col2:
-		st.markdown('''<p class="little-big">While my career started out with me working in wet labs as a Chemist, performing various chemical
+		st.markdown('''<p class="little-big"> Agnes McFarlin
 		</p>''',unsafe_allow_html=True)
-	st.markdown(''' <p class="little-big"> and biochemical tests, and working with a 
-			variety of instruments.I always enjoyed poring over the massive amounts of data that were generated during the course of some interval by work processes. So, in pursuit of furthering my career 
-			interest with such activities, I have completed a Master’s program in Data Science at the 
-			University of Colorado.I have gained experience using Python and R with a 
-			variety of tasks. Cleaning, parsing, otherwise working with numerical and text data. 
-			Visualizing said data using various libraries and techniques and even some machine 
-			learning using Scikit learn, Tensorflow and Hugging Face. I am excited to apply my skills and 
-			knowledge with new opportunities.</p>''',unsafe_allow_html=True)
+	with col2:
+		st.markdown('''<p class="little-big">
+		</p>''',unsafe_allow_html=True)
+	st.markdown(''' <p class="little-big"> Data Scientist| Data Analyst </p>''',unsafe_allow_html=True)
 
 
 sideb = st.sidebar
@@ -77,6 +71,7 @@ check3 = sideb.link_button("Resume", "https://drive.google.com/file/d/1i3PxOibjf
 
 
 if check1:
+    st.header("""Introduction : """)
 	placeholder.empty()
 	col1, col2 = st.columns([0.2,0.8])
 	with col1:
