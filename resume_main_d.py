@@ -49,7 +49,7 @@ st.markdown("""
 placeholder = st.empty()
 with placeholder.container():
 	st.header("""About : """)
-	col1, col2 = st.columns(2, gap="small")
+	col1, col2 = st.columns([1,3])
 	with col1:
 		st.image("https://drive.google.com/uc?export=view&id=1zjzykI1bShq50pu1gkcp962afitfw35n")
 	with col2:
