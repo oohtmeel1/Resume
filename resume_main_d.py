@@ -71,7 +71,7 @@ check3 = sideb.link_button("Resume", "https://drive.google.com/file/d/1i3PxOibjf
 
 
 if check1:
-    st.header("""Introduction : """)
+	st.header("""Introduction : """)
 	placeholder.empty()
 	col1, col2 = st.columns([0.2,0.8])
 	with col1:
