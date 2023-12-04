@@ -49,22 +49,24 @@ st.markdown("""
 placeholder = st.empty()
 with placeholder.container():
 	st.header("""About : """)
-	st.markdown('''<img src="https://drive.google.com/uc?export=view&id=1VNyLiC2GQSonzXvbmRL7KO_mfuBQZP3S"
- 	alt="foo" width=300, height=300 /> <p class="little-big">While my career started out with me working in wet labs as a Chemist, 
-	performing various chemical and biochemical tests, and working with a 
-	variety of instruments.
-  	I always enjoyed poring over the massive amounts of data that
-   	were generated during the course of some interval by work processes. From tracking protein concentration changes over time, 
-	and communicating those changes during meetings, or tracking samples sent for outside 
-	testing to ensure timelines were being met, the Data Science portion 
-	of my various jobs has always interested me. So, in pursuit of furthering my career 
-	interest with such activities, I have been diligently self-studying programming and 
-	have completed a Master’s program in Data Science at the 
-	University of Colorado.I have gained experience using Python and R with a 
-	variety of tasks. Cleaning, parsing, otherwise working with numerical and text data. 
-	Visualizing said data using various libraries and techniques and even some machine 
-	learning using Scikit learn, Tensorflow and Hugging Face. I am excited to apply my skills and 
-	knowledge with new opportunities.</p>''',unsafe_allow_html=True)
+	col1, col2 = st.columns(2, gap="small")
+	with col1:
+		st.markdown('''[!Google](https://drive.google.com/uc?export=view&id=1zjzykI1bShq50pu1gkcp962afitfw35n)''')
+		st.markdown('''<p class="little-big">While my career started out with me working in wet labs as a Chemist, 
+		performing various chemical and biochemical tests, and working with a 
+		variety of instruments.
+		I always enjoyed poring over the massive amounts of data that
+		were generated during the course of some interval by work processes. From tracking protein concentration changes over time, 
+		and communicating those changes during meetings, or tracking samples sent for outside 
+		testing to ensure timelines were being met, the Data Science portion 
+		of my various jobs has always interested me. So, in pursuit of furthering my career 
+		interest with such activities, I have been diligently self-studying programming and 
+		have completed a Master’s program in Data Science at the 
+		University of Colorado.I have gained experience using Python and R with a 
+		variety of tasks. Cleaning, parsing, otherwise working with numerical and text data. 
+		Visualizing said data using various libraries and techniques and even some machine 
+		learning using Scikit learn, Tensorflow and Hugging Face. I am excited to apply my skills and 
+		knowledge with new opportunities.</p>''',unsafe_allow_html=True)
 
 
 sideb = st.sidebar
