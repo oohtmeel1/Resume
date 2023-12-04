@@ -58,7 +58,7 @@ st.sidebar.image("https://drive.google.com/uc?export=view&id=1udI3U3LLKbZBKp4LLh
 
 st.sidebar.markdown('<p class="big-font">Agnes McFarlin</p>',unsafe_allow_html=True)
 st.sidebar.write("Enjoyer of science in all forms.")
-check4 = sideb.button('Home')
+st.sidebar = sideb.button('Home')
 st.sidebar.link_button("Github", "https://github.com/oohtmeel1")
 
 check1 = sideb.button('Introduction')
