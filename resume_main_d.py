@@ -78,33 +78,33 @@ check3 = sideb.link_button("Resume", "https://drive.google.com/file/d/1i3PxOibjf
 
 if check1:
 	placeholder.empty()
-col1, col2 = st.columns([0.2,0.8])
-with col1:
-	st.image("https://drive.google.com/uc?export=view&id=1zjzykI1bShq50pu1gkcp962afitfw35n")
-with col2:
-	st.markdown('''<p class="little-big">While my career started out with me working in wet labs as a Chemist, performing various chemical
-		</p>''',unsafe_allow_html=True)
-st.markdown(''' <p class="little-big"> and biochemical tests, and working with a 
-		variety of instruments.I always enjoyed poring over the massive amounts of data that were generated during the course of some interval by work processes. So, in pursuit of furthering my career 
-		interest with such activities, I have completed a Master’s program in Data Science at the 
-		University of Colorado.I have gained experience using Python and R with a 
-		variety of tasks. Cleaning, parsing, otherwise working with numerical and text data. 
-		Visualizing said data using various libraries and techniques and even some machine 
-		learning using Scikit learn, Tensorflow and Hugging Face. I am excited to apply my skills and 
-		knowledge with new opportunities.</p>''',unsafe_allow_html=True)
-with st.container():
-	st.write("Software experience")
-	cola, colb, colc = st.columns(3)
-	with cola:
-		st.markdown('Python')
-		st.image('''https://drive.google.com/uc?export=view&id=1dMATOGMzG4V6T0PPUCA0WmW7WQD5Vval''')
-	with colb:
-		st.markdown('R-Studio')
-		st.image('''https://drive.google.com/uc?export=view&id=1V_S8xJOXOzG-ohNvtUFiK635gpyXrj8X''')
-	st.write("This is outside the container")
-	with colc:
-		st.markdown('MySQL')
-		st.image('''https://drive.google.com/uc?export=view&id=1yO38loXOza6YyjDjWH0pQ-EeuVC59Yvp''')
+	col1, col2 = st.columns([0.2,0.8])
+	with col1:
+		st.image("https://drive.google.com/uc?export=view&id=1zjzykI1bShq50pu1gkcp962afitfw35n")
+	with col2:
+		st.markdown('''<p class="little-big">While my career started out with me working in wet labs as a Chemist, performing various chemical
+			</p>''',unsafe_allow_html=True)
+	st.markdown(''' <p class="little-big"> and biochemical tests, and working with a 
+			variety of instruments.I always enjoyed poring over the massive amounts of data that were generated during the course of some interval by work processes. So, in pursuit of furthering my career 
+			interest with such activities, I have completed a Master’s program in Data Science at the 
+			University of Colorado.I have gained experience using Python and R with a 
+			variety of tasks. Cleaning, parsing, otherwise working with numerical and text data. 
+			Visualizing said data using various libraries and techniques and even some machine 
+			learning using Scikit learn, Tensorflow and Hugging Face. I am excited to apply my skills and 
+			knowledge with new opportunities.</p>''',unsafe_allow_html=True)
+	with st.container():
+		st.write("Software experience")
+		cola, colb, colc = st.columns(3)
+		with cola:
+			st.markdown('Python')
+			st.image('''https://drive.google.com/uc?export=view&id=1dMATOGMzG4V6T0PPUCA0WmW7WQD5Vval''')
+		with colb:
+			st.markdown('R-Studio')
+			st.image('''https://drive.google.com/uc?export=view&id=1V_S8xJOXOzG-ohNvtUFiK635gpyXrj8X''')
+		st.write("This is outside the container")
+		with colc:
+			st.markdown('MySQL')
+			st.image('''https://drive.google.com/uc?export=view&id=1yO38loXOza6YyjDjWH0pQ-EeuVC59Yvp''')
 
   
   
