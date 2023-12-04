@@ -102,6 +102,9 @@ if check1:
 		with cola:
 			st.markdown('Python')
 			st.image('''https://drive.google.com/uc?export=view&id=1dMATOGMzG4V6T0PPUCA0WmW7WQD5Vval''')
+		with colb:
+			st.markdown('Python')
+			st.image('''https://drive.google.com/uc?export=view&id=1dMATOGMzG4V6T0PPUCA0WmW7WQD5Vval''')
 
 		st.write("This is outside the container")	
 	placeholder.empty()
