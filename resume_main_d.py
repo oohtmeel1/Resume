@@ -51,6 +51,12 @@ if "visibility" not in st.session_state:
     st.session_state.visibility = "visible"
     st.session_state.disabled = False
 
+st.checkbox("Disable text input widget", key="disabled")
+st.radio(
+	"Set text input label visibility 👉",
+	key="visibility",
+	options=["visible", "hidden", "collapsed"],
+)
 no_buttons=st.markdown("Hello there",display=True)
 
 sideb = st.sidebar
