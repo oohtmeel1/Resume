@@ -1,11 +1,12 @@
 # Resume
 Resume
-```<Python>
-//  print('Hello World!")
-```
+
 
 I started with the simple 
-print("Hello World!)
+```<Python>
+print('Hello World!")
+```
+
 https://resume-agnes-mcfarlin.streamlit.app/
 
 And now I can make an app in Streamlit. 
