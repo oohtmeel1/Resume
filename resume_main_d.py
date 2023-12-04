@@ -77,11 +77,12 @@ check3 = sideb.link_button("Resume", "https://drive.google.com/file/d/1i3PxOibjf
 
 
 if check1:
-	col1, col2 = st.columns([0.2,0.8])
-	with col1:
-		st.image("https://drive.google.com/uc?export=view&id=1zjzykI1bShq50pu1gkcp962afitfw35n")
-	with col2:
-		st.markdown('''<p class="little-big">While my career started out with me working in wet labs as a Chemist, performing various chemical
+	placeholder.empty()
+col1, col2 = st.columns([0.2,0.8])
+with col1:
+	st.image("https://drive.google.com/uc?export=view&id=1zjzykI1bShq50pu1gkcp962afitfw35n")
+with col2:
+	st.markdown('''<p class="little-big">While my career started out with me working in wet labs as a Chemist, performing various chemical
 		</p>''',unsafe_allow_html=True)
 st.markdown(''' <p class="little-big"> and biochemical tests, and working with a 
 		variety of instruments.I always enjoyed poring over the massive amounts of data that were generated during the course of some interval by work processes. So, in pursuit of furthering my career 
@@ -104,7 +105,7 @@ with st.container():
 	with colc:
 		st.markdown('MySQL')
 		st.image('''https://drive.google.com/uc?export=view&id=1yO38loXOza6YyjDjWH0pQ-EeuVC59Yvp''')
-placeholder.empty()
+
   
   
 if check2:
