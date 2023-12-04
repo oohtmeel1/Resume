@@ -46,7 +46,13 @@ st.markdown("""
 		}
 	</style>
 	""", unsafe_allow_html=True)
- 
+
+if "visibility" not in st.session_state:
+    st.session_state.visibility = "visible"
+    st.session_state.disabled = False
+
+no_buttons=st.markdown("Hello there",display=True)
+
 sideb = st.sidebar
 st.sidebar.image("https://drive.google.com/uc?export=view&id=1udI3U3LLKbZBKp4LLh-dRteKGP6C-lpp",width=50)
 
@@ -58,7 +64,7 @@ check1 = sideb.button('Introduction')
 check2 = sideb.button('Projects')
 check3 = sideb.link_button("Resume", "https://drive.google.com/file/d/1i3PxOibjfFDwH6j4DgPT7Och_3SMi2Q0/view?usp=sharing")
 if check1:
-	
+	disabled=st.session_state.disabled
 	st.header("""About : """)
 	st.markdown('''<img src="https://drive.google.com/uc?export=view&id=1VNyLiC2GQSonzXvbmRL7KO_mfuBQZP3S"
  	alt="foo" width=300, height=300 /> <p class="little-big">While my career started out with me working in wet labs as a Chemist, 
@@ -76,10 +82,11 @@ if check1:
 	Visualizing said data using various libraries and techniques and even some machine 
 	learning using Scikit learn, Tensorflow and Hugging Face. I am excited to apply my skills and 
 	knowledge with new opportunities.</p>''',unsafe_allow_html=True)	
-
+	
   
   
 if check2:
+	disabled=st.session_state.disabled	
 	st.title('Projects:bar_chart:')
 	st.markdown('''<p class="little-big"> Some Python, some R, a lot of data.</p>''',unsafe_allow_html=True)
 	col1, col2, col3 = st.columns(3)
@@ -102,7 +109,7 @@ if check2:
 		expander.write('''
 				 Used Python, Folium, Branca and other libraries in order to display and visualize Geospatial and finanacial data. Deployed app in streamlit''')
 		expander.write("[Project Link](https://oohtmeel1-coloradobouldervisalizations-my-app-final-j5ndhy.streamlit.app/)")
-		
+	
 
 	
 
@@ -174,7 +181,7 @@ if check2:
 		expander.write("[Repo link](https://github.com/oohtmeel1/Project_For_Data_Visualization)")
 		expander.write("""In R worked with a large data file consiting of mixed data types, interpreted and visualized results. """)	
 
-if not check1 and check2 and check3:
+if  check1 or check2 or check3:
     st.markdown("Stuff goes here")
   
 
