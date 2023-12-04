@@ -76,9 +76,9 @@ if check1:
 	with col1:
 		st.image("https://drive.google.com/uc?export=view&id=1zjzykI1bShq50pu1gkcp962afitfw35n")
 	with col2:
-		st.markdown('''<p class="little-big">Chemist turned Data Scientist:
+		st.markdown('''<p class="little-big">Chemist turned Data Scientist:Leveraging  and building on existing knowledge using new tools
 			</p>''',unsafe_allow_html=True)
-	st.markdown(''' <p class="little-big">My goal is leveraging existing knowledge using new tools. 
+	st.markdown(''' <p class="little-big">
              </p>''',unsafe_allow_html=True)
 	with st.container():
 		st.write("Software experience")
