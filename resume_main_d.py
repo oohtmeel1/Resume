@@ -106,10 +106,9 @@ if check1:
 			st.markdown('R-Studio')
 			st.image('''https://drive.google.com/uc?export=view&id=1V_S8xJOXOzG-ohNvtUFiK635gpyXrj8X''')
 		st.write("This is outside the container")
-		with colb:
+		with colc:
 			st.markdown('MySQL')
 			st.image('''https://drive.google.com/uc?export=view&id=1yO38loXOza6YyjDjWH0pQ-EeuVC59Yvp''')
-		st.write("This is outside the container")
 	placeholder.empty()
   
   
