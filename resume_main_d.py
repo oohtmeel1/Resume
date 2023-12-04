@@ -78,7 +78,7 @@ check3 = sideb.link_button("Resume", "https://drive.google.com/file/d/1i3PxOibjf
 
 
 if check1:
-	
+	placeholder.empty()
 	col1, col2 = st.columns([0.2,0.8])
 	with col1:
 		st.image("https://drive.google.com/uc?export=view&id=1zjzykI1bShq50pu1gkcp962afitfw35n")
