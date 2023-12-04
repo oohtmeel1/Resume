@@ -83,7 +83,7 @@ if check1:
 	st.markdown('''<img src="https://drive.google.com/uc?export=view&id=1VNyLiC2GQSonzXvbmRL7KO_mfuBQZP3S"
  	alt="foo" width=300, height=300 /> <p class="little-big">While my career started out with me working in wet labs as a Chemist, 
 	performing various chemical and biochemical tests, and working with a 
-	variety of instruments.![Cool image](https://drive.google.com/uc?export=view&id=1VNyLiC2GQSonzXvbmRL7KO_mfuBQZP3S)
+	variety of instruments.![Cool image](https://drive.google.com/uc?export=view&id=1zjzykI1bShq50pu1gkcp962afitfw35n)
   	I always enjoyed poring over the massive amounts of data that
    	were generated during the course of some interval by work processes. From tracking protein concentration changes over time, 
 	and communicating those changes during meetings, or tracking samples sent for outside 
