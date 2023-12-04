@@ -64,6 +64,7 @@ check1 = sideb.button('Introduction')
 check2 = sideb.button('Projects')
 check3 = sideb.link_button("Resume", "https://drive.google.com/file/d/1i3PxOibjfFDwH6j4DgPT7Och_3SMi2Q0/view?usp=sharing")
 if check1:
+	label_visibility=st.session_state.visibility
 	disabled=st.session_state.disabled
 	st.header("""About : """)
 	st.markdown('''<img src="https://drive.google.com/uc?export=view&id=1VNyLiC2GQSonzXvbmRL7KO_mfuBQZP3S"
@@ -86,6 +87,7 @@ if check1:
   
   
 if check2:
+	label_visibility=st.session_state.visibility
 	disabled=st.session_state.disabled	
 	st.title('Projects:bar_chart:')
 	st.markdown('''<p class="little-big"> Some Python, some R, a lot of data.</p>''',unsafe_allow_html=True)
