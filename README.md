@@ -1,7 +1,7 @@
 # Resume
 [![Linkedin](https://drive.google.com/uc?export=view&id=1f6E-lxqLHT42eVfciyfHex_taS1-Uj7Q)](https://www.linkedin.com/in/agnes-mcfarlin)
 
-Resume
+# Background
 
 
 I started with the simple 
@@ -9,9 +9,11 @@ I started with the simple
 print('Hello World!")
 ```
 
-https://resume-agnes-mcfarlin.streamlit.app/
 
-And now I can make an app in Streamlit. 
+
+
+[![Linkedin](https://drive.google.com/uc?export=view&id=1RkRI4YqT7oR1rutqsdm4c71vq8vQj8EE)](https://resume-agnes-mcfarlin.streamlit.app)
+
 
 I might now know everything but I am continuing to learn and grow.
 
