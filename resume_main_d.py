@@ -46,7 +46,12 @@ st.markdown("""
 		}
 	</style>
 	""", unsafe_allow_html=True)
-
+placeholder = st.empty()
+placeholder.text("Hello")
+placeholder.line_chart({"data": [1, 5, 2, 6]})
+with placeholder.container():
+    st.write("This is one element")
+    st.write("This is another")
 
 sideb = st.sidebar
 st.sidebar.image("https://drive.google.com/uc?export=view&id=1udI3U3LLKbZBKp4LLh-dRteKGP6C-lpp",width=50)
@@ -77,11 +82,11 @@ if check1:
 	Visualizing said data using various libraries and techniques and even some machine 
 	learning using Scikit learn, Tensorflow and Hugging Face. I am excited to apply my skills and 
 	knowledge with new opportunities.</p>''',unsafe_allow_html=True)	
-	
+	placeholder.empty()
   
   
 if check2:
-
+	placeholder.empty()
 	st.title('Projects:bar_chart:')
 	st.markdown('''<p class="little-big"> Some Python, some R, a lot of data.</p>''',unsafe_allow_html=True)
 	col1, col2, col3 = st.columns(3)
