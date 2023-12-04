@@ -97,9 +97,9 @@ if check1:
 	learning using Scikit learn, Tensorflow and Hugging Face. I am excited to apply my skills and 
 	knowledge with new opportunities.</p>''',unsafe_allow_html=True)
 	with st.container():
-		st.write("This is inside the container")
-
-		st.bar_chart(np.random.randn(50, 3))
+		st.write("Software experience")
+		st.markdown('Python')
+		st.image('''https://drive.google.com/uc?export=view&id=1dMATOGMzG4V6T0PPUCA0WmW7WQD5Vval''')
 
 		st.write("This is outside the container")	
 	placeholder.empty()
