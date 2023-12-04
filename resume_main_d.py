@@ -103,9 +103,8 @@ if check1:
 			st.markdown('Python')
 			st.image('''https://drive.google.com/uc?export=view&id=1dMATOGMzG4V6T0PPUCA0WmW7WQD5Vval''')
 		with colb:
-			st.markdown('Python')
-			st.image('''https://drive.google.com/uc?export=view&id=1dMATOGMzG4V6T0PPUCA0WmW7WQD5Vval''')
-
+			st.markdown('R-Studio')
+			st.image('''https://drive.google.com/uc?export=view&id=1V_S8xJOXOzG-ohNvtUFiK635gpyXrj8X''')
 		st.write("This is outside the container")	
 	placeholder.empty()
   
