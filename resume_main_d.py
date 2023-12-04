@@ -56,11 +56,10 @@ with placeholder.container():
 		st.markdown('''<p class="little-big">While my career started out with me working in wet labs as a Chemist, 
 		performing various chemical and biochemical tests, and working with a 
 		variety of instruments.
-		I always enjoyed poring over the massive amounts of data that
-		were generated during the course of some interval by work processes. From tracking protein concentration changes over time, 
-		and communicating those changes during meetings, or tracking samples sent for outside 
+		I always enjoyed poring over the massive amounts of data 
 		testing to ensure timelines were being met,</p>''',unsafe_allow_html=True)
-st.markdown(''' the Data Science portion 
+st.markdown(''' that were generated during the course of some interval by work processes. From tracking protein concentration changes over time, 
+		and communicating those changes during meetings, or tracking samples sent for outside the Data Science portion 
 		of my various jobs has always interested me. So, in pursuit of furthering my career 
 		interest with such activities, I have been diligently self-studying programming and 
 		have completed a Master’s program in Data Science at the 
