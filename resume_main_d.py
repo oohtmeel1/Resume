@@ -64,7 +64,8 @@ with placeholder.container():
 	variety of tasks. Cleaning, parsing, otherwise working with numerical and text data. 
 	Visualizing said data using various libraries and techniques and even some machine 
 	learning using Scikit learn, Tensorflow and Hugging Face. I am excited to apply my skills and 
-	knowledge with new opportunities.</p>''',unsafe_allow_html=True)	
+	knowledge with new opportunities.</p>''',unsafe_allow_html=True)
+
 
 sideb = st.sidebar
 st.sidebar.image("https://drive.google.com/uc?export=view&id=1udI3U3LLKbZBKp4LLh-dRteKGP6C-lpp",width=50)
@@ -94,8 +95,15 @@ if check1:
 	variety of tasks. Cleaning, parsing, otherwise working with numerical and text data. 
 	Visualizing said data using various libraries and techniques and even some machine 
 	learning using Scikit learn, Tensorflow and Hugging Face. I am excited to apply my skills and 
-	knowledge with new opportunities.</p>''',unsafe_allow_html=True)	
-	placeholder.empty()
+	knowledge with new opportunities.</p>''',unsafe_allow_html=True)
+	with st.container():
+		st.write("This is inside the container")
+
+   # You can call any Streamlit command, including custom components:
+		st.bar_chart(np.random.randn(50, 3))
+
+		st.write("This is outside the container")	
+placeholder.empty()
   
   
 if check2:
