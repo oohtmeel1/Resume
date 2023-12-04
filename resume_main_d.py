@@ -55,14 +55,15 @@ with placeholder.container():
 	with col2:
 		st.markdown('''<p class="little-big">While my career started out with me working in wet labs as a Chemist, performing various chemical
 		</p>''',unsafe_allow_html=True)
-st.markdown(''' <p class="little-big"> and biochemical tests, and working with a 
-		variety of instruments.I always enjoyed poring over the massive amounts of data that were generated during the course of some interval by work processes. So, in pursuit of furthering my career 
-		interest with such activities, I have completed a Master’s program in Data Science at the 
-		University of Colorado.I have gained experience using Python and R with a 
-		variety of tasks. Cleaning, parsing, otherwise working with numerical and text data. 
-		Visualizing said data using various libraries and techniques and even some machine 
-		learning using Scikit learn, Tensorflow and Hugging Face. I am excited to apply my skills and 
-		knowledge with new opportunities.</p>''',unsafe_allow_html=True)
+with placeholder.container():
+	st.markdown(''' <p class="little-big"> and biochemical tests, and working with a 
+			variety of instruments.I always enjoyed poring over the massive amounts of data that were generated during the course of some interval by work processes. So, in pursuit of furthering my career 
+			interest with such activities, I have completed a Master’s program in Data Science at the 
+			University of Colorado.I have gained experience using Python and R with a 
+			variety of tasks. Cleaning, parsing, otherwise working with numerical and text data. 
+			Visualizing said data using various libraries and techniques and even some machine 
+			learning using Scikit learn, Tensorflow and Hugging Face. I am excited to apply my skills and 
+			knowledge with new opportunities.</p>''',unsafe_allow_html=True)
 
 
 sideb = st.sidebar
@@ -105,7 +106,7 @@ if check1:
 		with colc:
 			st.markdown('MySQL')
 			st.image('''https://drive.google.com/uc?export=view&id=1yO38loXOza6YyjDjWH0pQ-EeuVC59Yvp''')
-	placeholder.empty()
+	
   
   
 if check2:
