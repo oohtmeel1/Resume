@@ -86,8 +86,10 @@ if check1:
 	st.markdown(''' <p class="little-big">Education: 
 			 Master's of Science Data Science, From University of Colorado Boulder. 
 			 GPA obtained 3.8
-				</p> Became familliar with statistical analysis in Python and R. Applied machine learning to solve various problems. 
-    			Learned how to visualize and interpret results with said libraries.''',unsafe_allow_html=True)
+				</p> While undertaking the Master's Program I became familliar with statistical analysis in Python and R. 
+    			Applied machine learning to solve various problems. 
+    			Learned how to visualize and interpret results with said software.
+       			I was also introduced to SQL, for database management. I learned to perform queries and other basic SQL functions.''',unsafe_allow_html=True)
 	with st.container():
 		st.header("Software experience:")
 		cola, colb, colc = st.columns(3)
