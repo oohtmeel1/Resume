@@ -47,7 +47,6 @@ st.markdown("""
 	</style>
 	""", unsafe_allow_html=True)
 
-st.markdown("Hello there",display=True)
 
 sideb = st.sidebar
 st.sidebar.image("https://drive.google.com/uc?export=view&id=1udI3U3LLKbZBKp4LLh-dRteKGP6C-lpp",width=50)
