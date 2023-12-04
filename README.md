@@ -1,5 +1,5 @@
 # Resume
-[![Linkedin](https://drive.google.com/uc?export=view&id=1VNyLiC2GQSonzXvbmRL7KO_mfuBQZP3S)(https://discord.gg/mw7xjJ7b7s)
+![Linkedin](https://drive.google.com/uc?export=view&id=1f6E-lxqLHT42eVfciyfHex_taS1-Uj7Q)(https://discord.gg/mw7xjJ7b7s)
 Resume
 
 
