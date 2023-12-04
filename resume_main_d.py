@@ -105,7 +105,7 @@ if check1:
 		with colc:
 			st.markdown('MySQL')
 			st.image('''https://drive.google.com/uc?export=view&id=1yO38loXOza6YyjDjWH0pQ-EeuVC59Yvp''')
-placeholder.empty()
+	placeholder.empty()
   
   
 if check2:
