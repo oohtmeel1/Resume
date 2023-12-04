@@ -48,7 +48,6 @@ st.markdown("""
 	""", unsafe_allow_html=True)
 placeholder = st.empty()
 with placeholder.container():
-	st.header("""About : """)
 	col1, col2 = st.columns([0.2,0.8])
 	with col1:
 		st.markdown('''<p class="little-big"> Agnes McFarlin
