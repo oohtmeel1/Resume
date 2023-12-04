@@ -58,7 +58,7 @@ with placeholder.container():
 	and communicating those changes during meetings, or tracking samples sent for outside 
 	testing to ensure timelines were being met, the Data Science portion 
 	of my various jobs has always interested me. So, in pursuit of furthering my career 
-	interest with such activities, I have been diligently self-studying programming 
+	interest with such activities, I have been diligently self-studying programming and 
 	have completed a Master’s program in Data Science at the 
 	University of Colorado.I have gained experience using Python and R with a 
 	variety of tasks. Cleaning, parsing, otherwise working with numerical and text data. 
