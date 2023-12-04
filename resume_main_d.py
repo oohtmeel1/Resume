@@ -47,17 +47,7 @@ st.markdown("""
 	</style>
 	""", unsafe_allow_html=True)
 
-if "visibility" not in st.session_state:
-    st.session_state.visibility = "visible"
-    st.session_state.disabled = False
-
-st.checkbox("Disable text input widget", key="disabled")
-st.radio(
-	"Set text input label visibility 👉",
-	key="visibility",
-	options=["visible", "hidden", "collapsed"],
-)
-no_buttons=st.markdown("Hello there",display=True)
+st.markdown("Hello there",display=True)
 
 sideb = st.sidebar
 st.sidebar.image("https://drive.google.com/uc?export=view&id=1udI3U3LLKbZBKp4LLh-dRteKGP6C-lpp",width=50)
@@ -69,9 +59,8 @@ st.sidebar.link_button("Github", "https://github.com/oohtmeel1")
 check1 = sideb.button('Introduction')
 check2 = sideb.button('Projects')
 check3 = sideb.link_button("Resume", "https://drive.google.com/file/d/1i3PxOibjfFDwH6j4DgPT7Och_3SMi2Q0/view?usp=sharing")
+
 if check1:
-	label_visibility=st.session_state.visibility
-	disabled=st.session_state.disabled
 	st.header("""About : """)
 	st.markdown('''<img src="https://drive.google.com/uc?export=view&id=1VNyLiC2GQSonzXvbmRL7KO_mfuBQZP3S"
  	alt="foo" width=300, height=300 /> <p class="little-big">While my career started out with me working in wet labs as a Chemist, 
@@ -93,8 +82,7 @@ if check1:
   
   
 if check2:
-	label_visibility=st.session_state.visibility
-	disabled=st.session_state.disabled	
+
 	st.title('Projects:bar_chart:')
 	st.markdown('''<p class="little-big"> Some Python, some R, a lot of data.</p>''',unsafe_allow_html=True)
 	col1, col2, col3 = st.columns(3)
