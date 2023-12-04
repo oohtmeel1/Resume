@@ -174,7 +174,7 @@ if check2:
 		expander.write("[Repo link](https://github.com/oohtmeel1/Project_For_Data_Visualization)")
 		expander.write("""In R worked with a large data file consiting of mixed data types, interpreted and visualized results. """)	
 
-if not check1 or check2 or check3:
+if not check1 and check2 and check3:
     st.markdown("Stuff goes here")
   
 
