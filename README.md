@@ -1,9 +1,9 @@
 # About
-My Linkedin:
+Linkedin:
 [![Linkedin](https://drive.google.com/uc?export=view&id=1f6E-lxqLHT42eVfciyfHex_taS1-Uj7Q)](https://www.linkedin.com/in/agnes-mcfarlin)
 
 
-My resume:
+Resume:
 [![Linkedin](https://drive.google.com/uc?export=view&id=1RkRI4YqT7oR1rutqsdm4c71vq8vQj8EE)](https://resume-agnes-mcfarlin.streamlit.app)
 
 # Background
