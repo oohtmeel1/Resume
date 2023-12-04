@@ -17,7 +17,7 @@ print('Hello World!")
 And learned how concepts I already understand apply to Software like Python and R.
 
 
-$$ \sigma $$
+$ \sigma  = \sqrt{\frac{\sum(X-\mu)^2}{N}}$
 
 
 
