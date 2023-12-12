@@ -144,7 +144,7 @@ if check2:
 			st.write("[Project Link](https://oohtmeel1-coloradobouldervisalizations-my-app-final-j5ndhy.streamlit.app/)")
 	with col15:
 		with st.container():
-			st.header("Visualizaton and analysis")
+			st.header("Machine Learning")
 			st.image('''https://drive.google.com/uc?export=view&id=1d6V8qJeOfWKads8uJX0EQ_L5nO7vQgL2''')
 			st.write('''
 				 Used R and various Machine Learning models to categorize Biomes based on water consumption data.''')
