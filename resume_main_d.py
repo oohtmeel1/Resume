@@ -145,10 +145,10 @@ if check2:
 	with col15:
 		with st.container():
 			st.header("Visualizaton and analysis")
-			st.image('''https://drive.google.com/uc?export=view&id=13A2rY23cm1q8_AAOPf_1CYDVruJbNITp''')
+			st.image('''https://drive.google.com/uc?export=view&id=1d6V8qJeOfWKads8uJX0EQ_L5nO7vQgL2''')
 			st.write('''
-				 Used Python, Folium, Branca and other libraries in order to display and visualize Geospatial and finanacial data.''')
-			st.write("[Project Link](https://oohtmeel1-coloradobouldervisalizations-my-app-final-j5ndhy.streamlit.app/)")
+				 Used R and various Machine Learning models to categorize Biomes based on water consumption data.''')
+			st.write("[Project Link](https://github.com/oohtmeel1/Machine_Learning_R/)")
    
 	col4,col5,col6 = st.columns(3)
 	with col4:
