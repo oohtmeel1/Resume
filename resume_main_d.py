@@ -92,7 +92,7 @@ if check1:
 	   			I was also introduced to SQL, for database management. I learned to perform queries and other basic SQL functions.''',unsafe_allow_html=True)
 	with st.container():
 		st.header("Software experience:")
-		cola, colb, colc,cold = st.columns(4)
+		cola, colb, colc = st.columns(3)
 		with cola:
 			st.markdown('Python')
 			st.image("""https://drive.google.com/uc?export=view&id=1dMATOGMzG4V6T0PPUCA0WmW7WQD5Vval""")
@@ -112,18 +112,14 @@ if check1:
 			st.image('''https://drive.google.com/uc?export=view&id=1yO38loXOza6YyjDjWH0pQ-EeuVC59Yvp''')
 			st.markdown("- querying data")
 			st.markdown("- performing basic data manipulation functions")
-		with cold:
-			st.markdown('MySQL')
-			st.image('''https://drive.google.com/uc?export=view&id=1yO38loXOza6YyjDjWH0pQ-EeuVC59Yvp''')
-			st.markdown("- querying data")
-			st.markdown("- performing basic data manipulation functions")
+
   
   
 if check2:
 	placeholder.empty()
 	st.title('Projects:bar_chart:')
 	st.markdown('''<p class="little-big"> Some Python, some R, a lot of data.</p>''',unsafe_allow_html=True)
-	col1, col2, col3 = st.columns(3)
+	col1, col2, col3,col4 = st.columns(3)
 	with col1:
 		with st.container():
 			st.header("Statistical analysis ")
@@ -146,6 +142,14 @@ if check2:
 			st.write('''
 				 Used Python, Folium, Branca and other libraries in order to display and visualize Geospatial and finanacial data.''')
 			st.write("[Project Link](https://oohtmeel1-coloradobouldervisalizations-my-app-final-j5ndhy.streamlit.app/)")
+	with col4:
+		with st.container():
+			st.header("Visualizaton and analysis")
+			st.image('''https://drive.google.com/uc?export=view&id=13A2rY23cm1q8_AAOPf_1CYDVruJbNITp''')
+			st.write('''
+				 Used Python, Folium, Branca and other libraries in order to display and visualize Geospatial and finanacial data.''')
+			st.write("[Project Link](https://oohtmeel1-coloradobouldervisalizations-my-app-final-j5ndhy.streamlit.app/)")
+   
 	col4,col5,col6 = st.columns(3)
 	with col4:
 		with st.container():
