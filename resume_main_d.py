@@ -119,7 +119,7 @@ if check2:
 	placeholder.empty()
 	st.title('Projects:bar_chart:')
 	st.markdown('''<p class="little-big"> Some Python, some R, a lot of data.</p>''',unsafe_allow_html=True)
-	col1, col2, col3,col4 = st.columns(3)
+	col1, col2, col3,col15 = st.columns(3)
 	with col1:
 		with st.container():
 			st.header("Statistical analysis ")
@@ -142,7 +142,7 @@ if check2:
 			st.write('''
 				 Used Python, Folium, Branca and other libraries in order to display and visualize Geospatial and finanacial data.''')
 			st.write("[Project Link](https://oohtmeel1-coloradobouldervisalizations-my-app-final-j5ndhy.streamlit.app/)")
-	with col4:
+	with col15:
 		with st.container():
 			st.header("Visualizaton and analysis")
 			st.image('''https://drive.google.com/uc?export=view&id=13A2rY23cm1q8_AAOPf_1CYDVruJbNITp''')
