@@ -59,8 +59,6 @@ with placeholder.container():
 
 
 sideb = st.sidebar
-st.sidebar.image("https://drive.google.com/uc?export=view&id=1udI3U3LLKbZBKp4LLh-dRteKGP6C-lpp",width=50)
-
 st.sidebar.markdown('<p class="big-font">Agnes McFarlin</p>',unsafe_allow_html=True)
 st.sidebar.write("Enjoyer of science in all forms.")
 st.sidebar.link_button("Github", "https://github.com/oohtmeel1")
