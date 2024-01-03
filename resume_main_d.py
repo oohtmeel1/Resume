@@ -148,7 +148,7 @@ if check2:
 				 Used R and various Machine Learning models to categorize Biomes based on water consumption data.''')
 			st.write("[Project Link](https://github.com/oohtmeel1/Machine_Learning_R/)")
    
-	col4,col5,col6 = st.columns(3)
+	col4,col5,col6,col16 = st.columns(4)
 	with col4:
 		with st.container():
 			st.header("Machine Learning")
@@ -170,6 +170,12 @@ if check2:
 			st.image('''https://drive.google.com/uc?export=view&id=1lbHl86hb7wLYRN4KA4lCC_6j-mQpQP_7''')
 			st.write("""In python used Keras and tensorflow to classify medical images as being malignant or benign using a CNN. """)
 			st.write("[Repo link](https://github.com/oohtmeel1/Week3DeepLearning)")
+	with col16:
+		with st.container():
+			st.header("Tableu Project")
+			st.image('''https://drive.google.com/uc?export=view&id=18HJH0gqDharFciy4QBCG4v8VTfzyF9Qw''')
+			st.write("""Used mySQL for working with the data and Tableu for visualization """)
+			st.write("[Prject link](https://public.tableau.com/shared/XGG2F8JDN?:display_count=n&:origin=viz_share_link)")
 	col7,col8,col9 = st.columns(3)
 	with col7:
 		with st.container():
