@@ -121,7 +121,7 @@ if check2:
 	with col1:
 		with st.container():
 			st.header("Statistical analysis ")
-			st.image('''https://drive.google.com/uc?export=view&id=1P8axquXzPg4ixflLtHXs69GZQb5dygUZ''')
+			st.image("""<img src="places_data_logo.png">""")
 			st.write('''
 					Used PLACES data from the CDC. Analyzed in Python, performed distribution fitting,correlation analysis, outlier analysis 
 	 				parametric and non parametric testing and discussed results. Libraries of note: scipy stats, distfit.''')
