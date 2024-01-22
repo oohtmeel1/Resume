@@ -129,14 +129,14 @@ if check2:
 	with col2:
 		with st.container():
 			st.header("Text classification")
-			st.image('''https://drive.google.com/uc?export=view&id=1ftTe2PDoBL0OkSt7y4jKNvH_Lrl61Vfi''')
+			st.image("small_graph.png")
 			st.write('''
 					Analyzed Twitter data in Python,  using NLTK, Seaborn and NetworkX to create directed and undirected graphs of text data.''')
 			st.write("[Project Link](https://colab.research.google.com/drive/15An1jxoNVKclHzFsV58FiIrUrW3nS47T?usp=sharing/)")
 	with col3:
 		with st.container():
 			st.header("Visualizaton and analysis")
-			st.image('''https://drive.google.com/uc?export=view&id=13A2rY23cm1q8_AAOPf_1CYDVruJbNITp''')
+			st.image("https://drive.google.com/uc?export=view&id=13A2rY23cm1q8_AAOPf_1CYDVruJbNITp")
 			st.write('''
 				 Used Python, Folium, Branca and other libraries in order to display and visualize Geospatial and finanacial data.''')
 			st.write("[Project Link](https://oohtmeel1-coloradobouldervisalizations-my-app-final-j5ndhy.streamlit.app/)")
