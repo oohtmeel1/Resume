@@ -93,21 +93,21 @@ if check1:
 		cola, colb, colc = st.columns(3)
 		with cola:
 			st.markdown('Python')
-			st.image("""<img src="https://drive.google.com/thumbnail?id=1dMATOGMzG4V6T0PPUCA0WmW7WQD5Vval">""")
+			st.image("python.png")
 			st.markdown("- loading and cleaning structured and unstructured data.")
 			st.markdown("- statistical analyis")
 			st.markdown("- Machine Learning")
 			st.markdown("- visualization of results")
 		with colb:
 			st.markdown('R-Studio')
-			st.image('''https://drive.google.com/uc?export=view&id=1V_S8xJOXOzG-ohNvtUFiK635gpyXrj8X''')
+			st.image("r_studio.png")
 			st.markdown("- loading and cleaning structured data")
 			st.markdown("- statistical analyis")
 			st.markdown("- Machine Learning")
 			st.markdown("- visualization of results")
 		with colc:
 			st.markdown('MySQL')
-			st.image('''https://drive.google.com/uc?export=view&id=1yO38loXOza6YyjDjWH0pQ-EeuVC59Yvp''')
+			st.image("my_sql.png")
 			st.markdown("- querying data")
 			st.markdown("- performing basic data manipulation functions")
 
