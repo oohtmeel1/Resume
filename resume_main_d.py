@@ -136,14 +136,14 @@ if check2:
 	with col3:
 		with st.container():
 			st.header("Visualizaton and analysis")
-			st.image("https://drive.google.com/uc?export=view&id=13A2rY23cm1q8_AAOPf_1CYDVruJbNITp")
+			st.image("map_image.jpg")
 			st.write('''
 				 Used Python, Folium, Branca and other libraries in order to display and visualize Geospatial and finanacial data.''')
 			st.write("[Project Link](https://oohtmeel1-coloradobouldervisalizations-my-app-final-j5ndhy.streamlit.app/)")
 	with col15:
 		with st.container():
 			st.header("Machine Learning")
-			st.image('''https://drive.google.com/uc?export=view&id=1d6V8qJeOfWKads8uJX0EQ_L5nO7vQgL2''')
+			st.image('''machine_learning_r.png''')
 			st.write('''
 				 Used R and various Machine Learning models to categorize Biomes based on water consumption data.''')
 			st.write("[Project Link](https://github.com/oohtmeel1/Machine_Learning_R/)")
@@ -152,7 +152,7 @@ if check2:
 	with col4:
 		with st.container():
 			st.header("Machine Learning")
-			st.image('''https://drive.google.com/uc?export=view&id=1V9JVQvpRM32CueFh3TR1kRuZyIsnOvTu''')
+			st.image("birds.jpg")
 			st.write(""" Used Python and machine learning (K-means)
 					in order to categorize bird species based on skeletal structure.""")		
 			st.write("[Repo link](https://github.com/oohtmeel1/Unsup2/tree/main)")
@@ -160,20 +160,20 @@ if check2:
 	with col5:
 		with st.container():
 			st.header("Machine Learning")
-			st.image('''https://drive.google.com/uc?export=view&id=14tvQGTj3ZJT_70Fbv7Zyxz1Fs4z7wW0G''')
+			st.image("word_cloud.jpg")
 			st.write("""Text categorization using Python, and a Bidirectional LSTM(RNN), to categorize tweets into Disaster or Not Disaster categories .""")
 			st.write("[Repo link](https://github.com/oohtmeel1/Disaster_tweets/tree/main)")
 			st.write("[Final Notebook](https://github.com/oohtmeel1/Disaster_tweets/blob/main/notebooke20b826a34%20(4).ipynb)")
 	with col6:
 		with st.container():
 			st.header("Machine Learning")
-			st.image('''https://drive.google.com/uc?export=view&id=1lbHl86hb7wLYRN4KA4lCC_6j-mQpQP_7''')
+			st.image("cell_images.jpg")
 			st.write("""In python used Keras and tensorflow to classify medical images as being malignant or benign using a CNN. """)
 			st.write("[Repo link](https://github.com/oohtmeel1/Week3DeepLearning)")
 	with col16:
 		with st.container():
 			st.header("Tableu Project")
-			st.image('''https://drive.google.com/uc?export=view&id=18HJH0gqDharFciy4QBCG4v8VTfzyF9Qw''')
+			st.image("tableu.png")
 			st.write("""Used mySQL for working with the data and Tableu for visualization """)
 			st.write("[Prject link](https://public.tableau.com/shared/XGG2F8JDN?:display_count=n&:origin=viz_share_link)")
 	col7,col8,col9 = st.columns(3)
