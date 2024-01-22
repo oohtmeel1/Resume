@@ -93,7 +93,7 @@ if check1:
 		cola, colb, colc = st.columns(3)
 		with cola:
 			st.markdown('Python')
-			st.image("""https://drive.google.com/tumbnail?id={1dMATOGMzG4V6T0PPUCA0WmW7WQD5Vval}""")
+			st.image(<img src="https://drive.google.com/thumbnail?id=1dMATOGMzG4V6T0PPUCA0WmW7WQD5Vval">)
 			st.markdown("- loading and cleaning structured and unstructured data.")
 			st.markdown("- statistical analyis")
 			st.markdown("- Machine Learning")
