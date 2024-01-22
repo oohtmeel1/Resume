@@ -180,13 +180,13 @@ if check2:
 	with col7:
 		with st.container():
 			st.header("Machine Learning")
-			st.image('''https://drive.google.com/uc?export=view&id=1fzRKB3-st7p44RwW6xvvXCXu73B8BEis''')
+			st.image("daily_news.jpg")
 			st.write("""In python compared unsupervised and supervised learning using different model types. """)
 			st.write("[Notebook link](https://github.com/oohtmeel1/Unsup_learning/blob/main/Report_A.ipynb)")
 	with col8:
 		with st.container():
 			st.header("Machine Learning")
-			st.image('''https://drive.google.com/uc?export=view&id=18FfgN71yMiFlZBapGRIQjbb9RLH-lqU0''')
+			st.image("cats_and_dogs.jpg")
 			
 			st.write("""In Python used a CNN model to perform image classification on pets. Libraries of note, Tensorflow and Keras """)
 			st.write("[Repo link](https://github.com/oohtmeel1/Deep_Learning_Final)")
@@ -194,7 +194,7 @@ if check2:
 		with st.container():
 			st.header("Machine Learning")
 			st.expander("Supervised learning sentiment analysis on text data")
-			st.image('''https://drive.google.com/uc?export=view&id=1PYBIaIQIwdzfEVBwvQxpxdpkeVm4bfEB''')
+			st.image("confusion.png")
 			
 			st.write(""" Cleaned and manually labelled enron email dataset in order to perform sentiment analysis in Python using Vader  sentiment analysis and SVM.""")
 			st.write("[Repo link](https://github.com/oohtmeel1/Supervised_learning_project)")
@@ -202,14 +202,14 @@ if check2:
 	with col10:
 		with st.container():
 			st.header("Machine Learning")
-			st.image('''https://drive.google.com/uc?export=view&id=1peKSc20h87VDg220_y5PxeFuiVjmlxfb''')
+			st.image("hugging_face.jpg")
 			st.write("""Used Python and Hugging Face models for text-classification. Image credit to blog.tensorflow.org """)
 			st.write("[Repo link](https://colab.research.google.com/drive/1galDfsylNzf5CRqxZU-0UWgF0FYcsJDf?usp=sharing)")
 	with col11:
 		with st.container():
 			with col11:
 				st.header("Visualization")
-				st.image('''https://drive.google.com/uc?export=view&id=1j-MYyXLK26zsCcoLRd6SqOF1V_Sr23zY''')
+				st.image("nyc_area.png")
 				st.write(""" Analyzed covid 19 data in R and tested relevant hypotheses, practiced applying linear modeling and visualization techniques""")
 				
 				st.write("[Report link](https://github.com/oohtmeel1/Covid19report/blob/main/covid19datafinalreport.pdf)")
