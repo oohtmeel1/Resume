@@ -64,7 +64,7 @@ st.sidebar.write("Enjoyer of science in all forms.")
 st.sidebar.link_button("Github", "https://github.com/oohtmeel1")
 check1 = sideb.button('Introduction')
 check2 = sideb.button('Projects')
-check3 = sideb.link_button("Resume", "https://drive.google.com/file/d/1i3PxOibjfFDwH6j4DgPT7Och_3SMi2Q0/view?usp=sharing")
+check3 = sideb.link_button("Resume", "https://drive.google.com/file/d/1-BEx1uV0IxAlkJiUqkNrGW3AnzWQFZf2/view?usp=sharing")
 
 
 if check1:
