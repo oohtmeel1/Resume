@@ -172,10 +172,10 @@ if check2:
 			st.write("[Repo link](https://github.com/oohtmeel1/Week3DeepLearning)")
 	with col16:
 		with st.container():
-			st.header("Tableu Project")
+			st.header("Tableu Visualization")
 			st.image("tableu.png")
 			st.write("""Used mySQL for working with the data and Tableu for visualization """)
-			st.write("[Prject link](https://public.tableau.com/shared/XGG2F8JDN?:display_count=n&:origin=viz_share_link)")
+			st.write("[Tableu Public link](https://public.tableau.com/shared/XGG2F8JDN?:display_count=n&:origin=viz_share_link)")
 	col7,col8,col9,col19 = st.columns(4)
 	with col7:
 		with st.container():
