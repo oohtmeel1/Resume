@@ -116,7 +116,7 @@ if check1:
 if check2:
 	placeholder.empty()
 	st.title('Projects:bar_chart:')
-	st.markdown('''<p class="little-big"> Some Python, some R, a lot of data.</p>''',unsafe_allow_html=True)
+	st.markdown('''<p class="little-big"> Some Python, R, Tableu, and a lot of data.</p>''',unsafe_allow_html=True)
 	col1, col2, col3,col15 = st.columns(4)
 	with col1:
 		with st.container():
