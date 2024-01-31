@@ -176,7 +176,7 @@ if check2:
 			st.image("tableu.png")
 			st.write("""Used mySQL for working with the data and Tableu for visualization """)
 			st.write("[Prject link](https://public.tableau.com/shared/XGG2F8JDN?:display_count=n&:origin=viz_share_link)")
-	col7,col8,col9 = st.columns(3)
+	col7,col8,col9,col19 = st.columns(4)
 	with col7:
 		with st.container():
 			st.header("Machine Learning")
@@ -195,9 +195,15 @@ if check2:
 			st.header("Machine Learning")
 			st.expander("Supervised learning sentiment analysis on text data")
 			st.image("confusion.png")
-			
 			st.write(""" Cleaned and manually labelled enron email dataset in order to perform sentiment analysis in Python using Vader  sentiment analysis and SVM.""")
 			st.write("[Repo link](https://github.com/oohtmeel1/Supervised_learning_project)")
+	with col19:
+		with st.container():
+			st.header("Tableu Visualization")
+			st.expander("Visualization of Financial Data")
+			st.image("fishies.png")
+			st.write(""" Gathered, cleaned and combined data from many sources, creating one report in Tableu""")
+			st.write("[Tableu Public link](https://public.tableau.com/views/FinancialSummaryDashboard_17067355428040/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)")
 	col10,col11,col12 = st.columns(3)
 	with col10:
 		with st.container():
