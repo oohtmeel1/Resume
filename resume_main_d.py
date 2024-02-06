@@ -213,12 +213,18 @@ if check2:
 			st.write("[Repo link](https://colab.research.google.com/drive/1galDfsylNzf5CRqxZU-0UWgF0FYcsJDf?usp=sharing)")
 	with col11:
 		with st.container():
-			with col11:
 				st.header("Visualization")
 				st.image("nyc_area.png")
 				st.write(""" Analyzed covid 19 data in R and tested relevant hypotheses, practiced applying linear modeling and visualization techniques""")
 				
 				st.write("[Report link](https://github.com/oohtmeel1/Covid19report/blob/main/covid19datafinalreport.pdf)")
+	with col12:
+		with st.container():
+				st.header("Linear Model")
+				st.image("Screenshot 2024-02-06 101227.png")
+				st.write("""Predicted Movie Gross based on limited data""")
+				
+				st.write("[Report link](https://github.com/oohtmeel1/Competition)")
 	
 
 		
