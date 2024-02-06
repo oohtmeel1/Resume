@@ -221,7 +221,7 @@ if check2:
 	with col12:
 		with st.container():
 				st.header("Linear Model")
-				st.image("Screenshot 2024-02-06 101227.png")
+				st.image("Screenshot_101227.png")
 				st.write("""Predicted Movie Gross based on limited data""")
 				
 				st.write("[Report link](https://github.com/oohtmeel1/Competition)")
