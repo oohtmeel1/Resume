@@ -220,9 +220,9 @@ if check2:
 				st.write("[Report link](https://github.com/oohtmeel1/Covid19report/blob/main/covid19datafinalreport.pdf)")
 	with col12:
 		with st.container():
-				st.header("Linear Model")
+				st.header("Machine Learning")
 				st.image("Screenshot_101227.png")
-				st.write("""Predicted Movie Gross based on limited data""")
+				st.write("""Predicted Movie Gross using Machine learning, loaded, cleaned and visualized data. Used Scikit learn Linear modeling.""")
 				
 				st.write("[Report link](https://github.com/oohtmeel1/Competition)")
 	
