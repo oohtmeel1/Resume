@@ -120,12 +120,11 @@ if check2:
 	colp, colq, colr,colm = st.columns(4)
 	with colp:
 		with st.container():
-			st.header("Statistical analysis ")
-			st.image("places_data_logo.png")
+			st.header("Tableu Visualization ")
+			st.image("snip_of_viz_salmon.png")
 			st.write('''
-					Used PLACES data from the CDC. Analyzed in Python, performed distribution fitting,correlation analysis, outlier analysis 
-	 				parametric and non parametric testing and discussed results. Libraries of note: scipy stats, distfit.''')
-			st.write("[Project Link](https://github.com/oohtmeel1/Data_Mining_complete/)")
+					Used data from several sources, cleaning and vombining it, creating a visualization in Tableu.''')
+			st.write("[Project Link](https://public.tableau.com/views/Salmoninfographic/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)")
 	col1, col2, col3,col15 = st.columns(4)
 	with col1:
 		with st.container():
