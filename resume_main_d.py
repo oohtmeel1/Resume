@@ -117,6 +117,15 @@ if check2:
 	placeholder.empty()
 	st.title('Projects:bar_chart:')
 	st.markdown('''<p class="little-big"> Some Python, R, Tableu, and a lot of data.</p>''',unsafe_allow_html=True)
+	colp, colq, colr,colm = st.columns(4)
+	with colp:
+		with st.container():
+			st.header("Statistical analysis ")
+			st.image("places_data_logo.png")
+			st.write('''
+					Used PLACES data from the CDC. Analyzed in Python, performed distribution fitting,correlation analysis, outlier analysis 
+	 				parametric and non parametric testing and discussed results. Libraries of note: scipy stats, distfit.''')
+			st.write("[Project Link](https://github.com/oohtmeel1/Data_Mining_complete/)")
 	col1, col2, col3,col15 = st.columns(4)
 	with col1:
 		with st.container():
