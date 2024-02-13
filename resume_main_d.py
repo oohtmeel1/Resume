@@ -123,7 +123,7 @@ if check2:
 			st.header("Tableu Visualization ")
 			st.image("snip_of_viz_salmon.png")
 			st.write('''
-					Used data from several sources, cleaning and vombining it, creating a visualization in Tableu.''')
+					Used data from several sources, cleaning and combining it, creating a visualization in Tableu.''')
 			st.write("[Project Link](https://public.tableau.com/views/Salmoninfographic/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)")
 	col1, col2, col3,col15 = st.columns(4)
 	with col1:
