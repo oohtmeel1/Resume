@@ -87,7 +87,7 @@ if check1:
 				</p> While undertaking the Master's Program I became familliar with statistical analysis in Python and R. 
 				Applied machine learning to solve various problems. 
 				Learned how to visualize and interpret results with said software.
-	   			I was also introduced to SQL, for database management. I learned to perform queries and other basic SQL functions.''',unsafe_allow_html=True)
+				   I was also introduced to SQL, for database management. I learned to perform queries and other basic SQL functions.''',unsafe_allow_html=True)
 	with st.container():
 		st.header("Software experience:")
 		cola, colb, colc = st.columns(3)
@@ -125,13 +125,13 @@ if check2:
 			st.write('''
 					Used data from several sources, cleaning and combining it, creating a visualization in Tableu.''')
 			st.write("[Project Link](https://public.tableau.com/views/Salmoninfographic/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)")
-   	with colq:
-		with st.container():
-			st.header("Machine Learning ")
-			st.image("eia_logo.png")
-			st.write('''
-					Used data from the U.S. Energy Information Administration to perform prediction using Machine learning in Python.''')
-			st.write("[Github Repo](https://github.com/oohtmeel1/Machine-Learning-_-Prediction_Electricity_Data/tree/main)")
+		with colq:
+			with st.container():
+				st.header("Machine Learning ")
+				st.image("eia_logo.png")
+				st.write('''
+						Used data from the U.S. Energy Information Administration to perform prediction using Machine learning in Python.''')
+				st.write("[Github Repo](https://github.com/oohtmeel1/Machine-Learning-_-Prediction_Electricity_Data/tree/main)")
 	col1, col2, col3,col15 = st.columns(4)
 	with col1:
 		with st.container():
@@ -139,7 +139,7 @@ if check2:
 			st.image("places_data_logo.png")
 			st.write('''
 					Used PLACES data from the CDC. Analyzed in Python, performed distribution fitting,correlation analysis, outlier analysis 
-	 				parametric and non parametric testing and discussed results. Libraries of note: scipy stats, distfit.''')
+					 parametric and non parametric testing and discussed results. Libraries of note: scipy stats, distfit.''')
 			st.write("[Project Link](https://github.com/oohtmeel1/Data_Mining_complete/)")
 	with col2:
 		with st.container():
