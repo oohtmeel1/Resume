@@ -125,6 +125,13 @@ if check2:
 			st.write('''
 					Used data from several sources, cleaning and combining it, creating a visualization in Tableu.''')
 			st.write("[Project Link](https://public.tableau.com/views/Salmoninfographic/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)")
+   	with colq:
+		with st.container():
+			st.header("Machine Learning ")
+			st.image("eia_logo.png")
+			st.write('''
+					Used data from the U.S. Energy Information Administration to perform prediction using Machine learning in Python.''')
+			st.write("[Github Repo](https://github.com/oohtmeel1/Machine-Learning-_-Prediction_Electricity_Data/tree/main)")
 	col1, col2, col3,col15 = st.columns(4)
 	with col1:
 		with st.container():
