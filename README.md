@@ -28,3 +28,6 @@ I might now know everything but I am continuing to learn and grow.
 
 
 <!--START_SECTION:activity-->
+
+
+<!--END_SECTION:activity-->
