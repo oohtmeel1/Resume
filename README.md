@@ -26,7 +26,7 @@ They just have to be applied in a way that differs slightly from pen and paper o
 I might now know everything but I am continuing to learn and grow.
 
 
-
+## :zap: Recent Activity
 <!--START_SECTION:activity-->
 
 
