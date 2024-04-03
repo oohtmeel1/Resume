@@ -135,10 +135,10 @@ if check2:
         with colr:
             with st.container():
                 st.header("Machine Learning ")
-                st.image("eia_logo.png")
+                st.image("logo.png")
                 st.write('''
-                        Used data from the U.S. Energy Information Administration to perform prediction using Machine learning in Python.''')
-                st.write("[Github Repo](https://github.com/oohtmeel1/Machine-Learning-_-Prediction_Electricity_Data/tree/main)")
+                        Trained a Pytorch custom neural network classifier to perform binary classification. Training was performed using PytorchIgnite''')
+                st.write("[Github Repo](https://github.com/oohtmeel1/Pytorch_Machine_Learning)")
     col1, col2, col3,col15 = st.columns(4)
     with col1:
         with st.container():
